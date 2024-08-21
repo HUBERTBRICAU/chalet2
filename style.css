@@ -6,7 +6,8 @@
 
 body {
   /* height: 60px; */
-  background-color: rgb(174, 192, 186);
+  /* background-color: rgb(221, 245, 237); */
+  background-image: linear-gradient(to right, rgb(227, 237, 245) , rgb(146, 169, 233));
   /* margin: 100px auto; */
 }
 h1 {
@@ -14,6 +15,7 @@ h1 {
   width: 400px;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
   align-items: center;
   border: black 2px solid;
@@ -22,11 +24,10 @@ h1 {
   padding: 10px;
 }
 h2{
-  width: 530px;
+  width: 33rem;
   text-align: justify;
-  transform: translateX(110px);
-  margin-top: 30px;
-  /* margin-left: 0 auto; */
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .le_chalet {
   font-size: 30px;
