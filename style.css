@@ -22,10 +22,11 @@ h1 {
   padding: 10px;
 }
 h2{
-  width: 700px;
+  width: 530px;
   text-align: justify;
-  margin-top: 25px;
-  margin-left: 20px;
+  transform: translateX(110px);
+  margin-top: 30px;
+  /* margin-left: 0 auto; */
 }
 .le_chalet {
   font-size: 30px;
@@ -56,7 +57,7 @@ h2{
 }
 
 .bas1 {
-  width: 700px;
+  width: 530px;
   max-width: 100%;
   cursor: pointer;
   margin: 0 auto;
@@ -64,7 +65,7 @@ h2{
 .bas1 img {
   width: 180px;
   height: 125px;
-  padding: 0 15px 0 0;
+  padding: 0 8px 0 0;
 }
 .haut2 {
   width: 530px;
@@ -81,7 +82,7 @@ h2{
   height: 300px;
 }
 .bas2 {
-  width: 700px;
+  width: 530px;
   max-width: 100%;
   cursor: pointer;
   margin: 0 auto;
@@ -89,7 +90,7 @@ h2{
 .bas2 img {
   width: 180px;
   height: 125px;
-  padding: 0 15px 0 0;
+  padding: 0 8px 0 0;
 }
 .swiper-button-prev,
 .swiper-button-next {

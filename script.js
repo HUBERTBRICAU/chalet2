@@ -2,7 +2,7 @@ const basSwiper = new Swiper('.bas1', {
   // Optional parameters
   
   // loop: true,
-  slidesPerView:4,
+  slidesPerView:3,
   slidesPerGroup:3,
   spaceBeetween:3,
 
@@ -46,7 +46,7 @@ const hautSwiper = new Swiper('.haut1', {
     // Optional parameters
     
     // loop: true,
-    slidesPerView:4,
+    slidesPerView:3,
     slidesPerGroup:3,
     spaceBeetween:3,
   
