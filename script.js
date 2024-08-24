@@ -77,11 +77,9 @@ const hautSwiper = new Swiper('.haut1', {
       },
       thumbs :{
         swiper: bas2Swiper
-      }
-    
-      // And if we need scrollbar
-      // scrollbar: {
-      //   el: '.swiper-scrollbar',
-      // },
+      },
+  
     });
+
+
   
