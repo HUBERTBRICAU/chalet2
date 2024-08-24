@@ -145,7 +145,7 @@ h2{
   transform: translate(-50%, -4px);
   opacity: 1;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   h1,h2 {
      width: 350px;
   }
