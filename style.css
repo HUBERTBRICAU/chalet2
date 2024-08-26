@@ -7,7 +7,11 @@
 body {
   /* height: 60px; */
   /* background-color: rgb(221, 245, 237); */
-  background-image: linear-gradient(to right, rgb(227, 237, 245) , rgb(146, 169, 233));
+  background-image: linear-gradient(
+    to right,
+    rgb(227, 237, 245),
+    rgb(146, 169, 233)
+  );
   /* margin: 100px auto; */
 }
 h1 {
@@ -22,48 +26,57 @@ h1 {
   background-color: #d9e5f3;
   border-radius: 15px;
   padding: 10px;
-} 
-ul{
+}
+ul {
   padding: 0;
   margin: 0;
 }
 /* ======================= ==navabar ====================== */
-nav{
+nav {
   overflow: hidden;
   background-color: rgb(176, 213, 247);
   position: fixed;
   width: 100%;
   opacity: 0.9;
   z-index: 10;
-  }
-li{
-  list-style-type: none ;
+}
+li {
+  list-style-type: none;
   font-size: 25px;
 }
-#lescourtys{
+#lescourtys {
   float: left;
   font-style: italic;
   font-weight: 800;
   text-transform: uppercase;
   margin-left: 15px;
 }
-header li{
+header li {
   float: right;
   font-size: 1.2em;
   padding: 14px 10px;
 }
-h2{
+h2 {
   width: 33rem;
   text-align: justify;
   margin: 0 auto;
   margin-top: 20px;
 }
-
+#flecheretour {
+  height: 60px;
+  width: 30px;
+  margin-left: 20px;
+  /* background-color: blue; */
+}
 .le_chalet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 30px;
   border: black 2px solid;
   border-radius: 10px;
-  width: 130px;
+  width: 230px;
+  height: 60px;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -176,7 +189,8 @@ h2{
   opacity: 1;
 }
 @media only screen and (max-width: 500px) {
-  h1,h2 {
-     width: 350px;
+  h1,
+  h2 {
+    width: 350px;
   }
 }
