@@ -11,31 +11,20 @@
     <header>
         <!-- <h1>Le chalet des Courtys</h1> -->
         <div>
-        <nav >
-          <ul> 
-            <li id="lescourtys" >les courtys </li>
-            <li id="leVillage" >Le village</li>
-            <li id="leChalet">Le chalet</li> 
-            <li id="contact">Contact</li>
-          </ul>   
-        </nav>
-        </div>
-        <div id="menu">
-            <div>
-              <img
-                onclick="maLangue()"
-                id="image"
-                src="images/drapeau-pays-bas.png"
-                width="50px"
-              />
+            <nav id="maNav">
+                <img onclick="maLangue()" id="image" src="images/drapeau-pays-bas.png" width="50px">
             </div>
-        </div>
+            <div id="menu">
+              <a id="leVillage" onclick="modif()">Le village</a>
+              <a id="leChalet" href="lechalet">Le chalet</a>
+            </nav>
+          </div>
         <!-- <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolore, nobis deleniti odio voluptates cumque sit? Iste aliquid temporibus, doloremque natus repellendus similique adipisci libero deserunt perferendis cumque, aliquam hic.</h2> -->
     </header>
     <div class="swiper haut1">  
         <div class="le_chalet">
             Le chalet
-            <img src="images/icones/arrow.svg" id="flecheretour" alt="" >    
+            <img src="images/icones/arrow.svg" class="flecheretour" alt="" >    
         </div>
         <div class="swiper-wrapper">
             <!-- === slides ========== -->
@@ -101,6 +90,7 @@
     <div class="swiper haut2">  
         <div class="le_chalet">
             Le village
+            <img src="images/icones/arrow.svg" class="flecheretour" alt="" >    
         </div>
         <div class="swiper-wrapper">
             <!-- === slides ========== -->
