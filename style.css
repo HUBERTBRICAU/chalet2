@@ -3,18 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
-  padding: 0;
-  margin: 0;
-}
 
 body {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(
-    to right,
-    rgb(227, 237, 245),
-    rgb(146, 169, 233)
+margin: 0;
+padding: 0;
+  background-image: linear-gradient(to right,rgb(227, 237, 245), rgb(146, 169, 233)
   );
   /* margin: 100px auto; */
 }
@@ -31,13 +24,6 @@ h1 {
   border-radius: 15px;
   padding: 10px;
 }
-nav {
-  overflow: hidden;
-  background-color: #fffae1;
-  position: fixed;
-  width: 100%;
-  opacity: 0.9;
-}
 ul {
   padding: 0;
   margin: 0;
@@ -45,32 +31,27 @@ ul {
 /* ======================= ==navabar ====================== */
 #menu {
   overflow: hidden;
-  display:flex;
-  justify-content:center;
-  background-color: rgb(176, 213, 247);
-  border-radius: 15px;
+  background-image: linear-gradient(to right,rgb(227, 237, 245), rgb(146, 169, 233)
+  );
   position: fixed;
-  padding: 10px 0;
   width: 100%;
+  border-radius: 15px;
   top: 0px;
-  left: 100px;
-  float: right;
-  margin-top: 12px;
+    left: 100px;
+    margin-top: 12px;
   opacity: 0.9;
   z-index: 10;
 }
-#image {
+#image{
   position: fixed;
   top: 0;
 }
-#leVillage,
-#leChalet {
+#leVillage, #leChalet{
   font-size: 1.2em;
   padding-left: 20px;
   padding-right: 10px;
 }
 li {
-  float: left;
   list-style-type: none;
   font-size: 25px;
 }
@@ -108,12 +89,11 @@ h2 {
   width: 200px;
   height: 60px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 20px;
   font-weight: 500;
   background-color: #d9e5f3;
 }
-
 .haut1 {
   width: 530px;
   max-width: 100%;
